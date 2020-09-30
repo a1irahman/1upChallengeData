@@ -6,7 +6,8 @@ Welcome!
 Hello! Thank you for taking a look at this repository. The following is an implementation of a system that is designed ask questions 
 via the command line, save the gathered answers, check them against a FHIR format ndjson, count the direct and indirect instances, and tabularize them.
 
-#To Run
+#
+To Run
 Please first install the dependencies and peer dependencies. Then simply type "npm start".
 
 #
