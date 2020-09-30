@@ -20,10 +20,19 @@ const patientResource = client.read({ resourceType: {resourceType}});
 //Resource test
 console.log(resource);
 
+//Array to hold first filter pass of data
+const firstPass = [];
+
 //Filter resource
-console.log(arr.filter(function(resourceType){
-  return resourceType.id == exportedAnswers;         
-}));
+arr.filter((resourceType) => {
+  resourceType.id == exportedAnswers;
+  firstPass.push
+});
+
+//Filter resources pointing at other resources
+firstPass.filter((resourceType) => {
+  resourceType == exportedAnswers;
+})
 
 //Counter variable to add to if match is found
 const counter = 0;
