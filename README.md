@@ -3,7 +3,7 @@
 #
 Welcome!
 
-Hello! Thank you for taking a look at this repository. The following is an implementation of a system that is designed ask questions 
+Hello! Thank you for taking a look at this repository. The following is an implementation of a system that is designed to ask questions 
 via the command line, save the gathered answers, check them against a FHIR format ndjson, count the direct and indirect instances, and tabularize them.
 
 #
